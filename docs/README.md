@@ -28,10 +28,11 @@ apply plugin: 'io.github.cfraser.cqldelight'
 ```
 
 The plugin automatically registers the `generateQueries`
-and `generateTestQueries` tasks to your project. These tasks
+and `generateTestQueries` tasks in your project. These tasks
 generate [Query](https://javadoc.io/doc/org.neo4j.driver/neo4j-java-driver/latest/org.neo4j.driver/org/neo4j/driver/Query.html)
-methods from **parseable** *Cypher* statements in `src/main/cypher/**/*.cypher` and `src/test/cypher/**/*.cypher`,
-respectively. To be **parseable**, a *Cypher* statement must be formatted as shown below.
+fields and methods from **parseable** *Cypher* statements in `src/main/cypher/**/*.cypher`
+and `src/test/cypher/**/*.cypher`, respectively. To be **parseable**, a *Cypher* statement must be formatted as shown
+below.
 
 ```text
 //cqldelight:<query name>
