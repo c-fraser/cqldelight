@@ -20,7 +20,7 @@ your `build.gradle` configuration to apply the plugin.
 ```groovy
 buildscript {
     dependencies {
-        classpath "io.github.c-fraser:cqldelight+"
+        classpath 'io.github.c-fraser:cqldelight:+'
     }
 }
 
